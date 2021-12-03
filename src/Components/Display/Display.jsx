@@ -23,7 +23,8 @@ const Display = props => {
                         </p>
                     </div>
                     <div className="card-btn">
-                        <a href="#">Ver más</a>
+                        Ver más
+                        {/* <a href="#">Ver más</a> */}
                     </div>
                 </div>
             </div>
