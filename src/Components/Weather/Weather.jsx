@@ -19,7 +19,7 @@ const Weather = () => {
         if(form.city === "") {
             alert("Ingresa Ciudad")
         }else{
-            const data = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${form.city},${form.country}&units=metric&appid=${APIKEY}`)
+            const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${form.city},${form.country}&units=metric&appid=${APIKEY}`)
             .then(res => res.json())
             .then(data => data)
 
